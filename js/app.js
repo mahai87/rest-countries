@@ -8,8 +8,8 @@ const displayData = (countries) => {
   const allCountries = countries.map((country) => setHtml(country));
   console.log(allCountries[0]);
   const container = document.getElementById("countries");
-  console.log(allCountries);
-  container.innerHTML = allCountries;
+  console.log(allCountries.join(" "));
+  container.innerHTML = allCountries.join(" ");
 };
 const setHtml = (country) => {
   const html = `

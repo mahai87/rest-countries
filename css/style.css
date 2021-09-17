@@ -9,6 +9,12 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
 }
+.country {
+  border: 3px solid lightskyblue;
+  border-radius: 20px;
+  background-color: lightgoldenrodyellow;
+  padding: 10px;
+}
 .country img {
   width: 200px;
 }

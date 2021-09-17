@@ -23,3 +23,4 @@ const setHtml = (country) => {
   return html;
 };
 loadData();
+// কমার জন্য এই সমস্যা হয়েছিল ।
